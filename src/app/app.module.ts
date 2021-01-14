@@ -12,7 +12,10 @@ import { ProfileComponent } from './profile/profile.component';
 import { BoardAdminComponent } from './board-admin/board-admin.component';
 import { BoardModeratorComponent } from './board-moderator/board-moderator.component';
 import { BoardUserComponent } from './board-user/board-user.component';
-import {authInterceptorProviders} from './helper/auth.interceptor'
+import {authInterceptorProviders} from './helper/auth.interceptor';
+import { HeaderComponent } from './header/header.component';
+import { FooterComponent } from './footer/footer.component';
+import { MenuComponent } from './menu/menu.component'
 @NgModule({
   declarations: [
     AppComponent,
@@ -23,6 +26,9 @@ import {authInterceptorProviders} from './helper/auth.interceptor'
     BoardAdminComponent,
     BoardModeratorComponent,
     BoardUserComponent,
+    HeaderComponent,
+    FooterComponent,
+    MenuComponent,
     
   ],
   imports: [
